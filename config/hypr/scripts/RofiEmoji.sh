@@ -1869,3 +1869,4 @@ ycap  symbol blue-square twitter
 🫧 bubbles soap fun carbonation sparkling
 🪪 identification card document
 🟰 heavy equals sign math
+¯\_(ツ)_/¯	face	shrug | dong | shrugging ascii

@@ -1,0 +1,170 @@
+[34m[INFO](B[m Nvidia GPU detected. Setting up proper env's and configs
+[34m[INFO](B[m NixOS Distro Detected. Setting up proper env's and configs.
+[34m[INFO](B[m Bibata-Hyprcursor directory detected. Activating Hyprcursor....
+[33m[NOTE](B[m kb_layout [35mno(B[m configured in settings.
+[32m[OK](B[m Default editor set to [35mnvim(B[m.
+[32m[OK](B[m You have chosen ≥ 1440p resolution.
+[33m[NOTE](B[m You chose not to change to 12H format.
+[33m[NOTE](B[m No changes made. Rainbow borders remain enabled.
+[33m[NOTE](B[m - Backed up ags to /home/mathipe/.config/ags-backup-back-up_0321_0812.
+[32m[OK](B[m - Replaced ags with new configuration.
+[33m[NOTE](B[m - Backed up fastfetch to /home/mathipe/.config/fastfetch-backup-back-up_0321_0812.
+[32m[OK](B[m - Replaced fastfetch with new configuration.
+[33m[NOTE](B[m - Backed up kitty to /home/mathipe/.config/kitty-backup-back-up_0321_0812.
+[32m[OK](B[m - Replaced kitty with new configuration.
+[33m[NOTE](B[m - Backed up rofi to /home/mathipe/.config/rofi-backup-back-up_0321_0812.
+[32m[OK](B[m - Replaced rofi with new configuration.
+Copying /home/mathipe/.config/rofi-backup-back-up_0321_0812/themes/KooL_LonerOrZ.rasi to /home/mathipe/.config/rofi/themes/
+Copying /home/mathipe/.config/rofi-backup-back-up_0321_0812/themes/KooL_style-10-Fancy.rasi to /home/mathipe/.config/rofi/themes/
+Copying /home/mathipe/.config/rofi-backup-back-up_0321_0812/themes/KooL_style-10-Fancy-v2.rasi to /home/mathipe/.config/rofi/themes/
+Copying /home/mathipe/.config/rofi-backup-back-up_0321_0812/themes/KooL_style-11-Win11-list-dark.rasi to /home/mathipe/.config/rofi/themes/
+Copying /home/mathipe/.config/rofi-backup-back-up_0321_0812/themes/KooL_style-11-Win11-list-light.rasi to /home/mathipe/.config/rofi/themes/
+Copying /home/mathipe/.config/rofi-backup-back-up_0321_0812/themes/KooL_style-12-TOP-Docu.rasi to /home/mathipe/.config/rofi/themes/
+Copying /home/mathipe/.config/rofi-backup-back-up_0321_0812/themes/KooL_style-13-Vertical.rasi to /home/mathipe/.config/rofi/themes/
+Copying /home/mathipe/.config/rofi-backup-back-up_0321_0812/themes/KooL_style-14.rasi to /home/mathipe/.config/rofi/themes/
+Copying /home/mathipe/.config/rofi-backup-back-up_0321_0812/themes/KooL_style-15-solarized.rasi to /home/mathipe/.config/rofi/themes/
+Copying /home/mathipe/.config/rofi-backup-back-up_0321_0812/themes/KooL_style-1.rasi to /home/mathipe/.config/rofi/themes/
+Copying /home/mathipe/.config/rofi-backup-back-up_0321_0812/themes/KooL_style-2-Dark.rasi to /home/mathipe/.config/rofi/themes/
+Copying /home/mathipe/.config/rofi-backup-back-up_0321_0812/themes/KooL_style-2-Light.rasi to /home/mathipe/.config/rofi/themes/
+Copying /home/mathipe/.config/rofi-backup-back-up_0321_0812/themes/KooL_style-3-FullScreen-v1.rasi to /home/mathipe/.config/rofi/themes/
+Copying /home/mathipe/.config/rofi-backup-back-up_0321_0812/themes/KooL_style-3-Fullscreen-v2.rasi to /home/mathipe/.config/rofi/themes/
+Copying /home/mathipe/.config/rofi-backup-back-up_0321_0812/themes/KooL_style-4.rasi to /home/mathipe/.config/rofi/themes/
+Copying /home/mathipe/.config/rofi-backup-back-up_0321_0812/themes/KooL_style-5.rasi to /home/mathipe/.config/rofi/themes/
+Copying /home/mathipe/.config/rofi-backup-back-up_0321_0812/themes/KooL_style-6.rasi to /home/mathipe/.config/rofi/themes/
+Copying /home/mathipe/.config/rofi-backup-back-up_0321_0812/themes/KooL_style-7.rasi to /home/mathipe/.config/rofi/themes/
+Copying /home/mathipe/.config/rofi-backup-back-up_0321_0812/themes/KooL_style-8.rasi to /home/mathipe/.config/rofi/themes/
+Copying /home/mathipe/.config/rofi-backup-back-up_0321_0812/themes/KooL_style-9.rasi to /home/mathipe/.config/rofi/themes/
+Restoring /home/mathipe/.config/rofi-backup-back-up_0321_0812/0-shared-fonts.rasi to /home/mathipe/.config/rofi/
+[33m[NOTE](B[m - Backed up swaync to /home/mathipe/.config/swaync-backup-back-up_0321_0812.
+[32m[OK](B[m - Replaced swaync with new configuration.
+[33m[NOTE](B[m - Backed up waybar to /home/mathipe/.config/waybar-backup-back-up_0321_0812.
+File /home/mathipe/.config/waybar/configs/[BOT] Camellia already exists. Skipping.
+File /home/mathipe/.config/waybar/configs/[BOT] Chrysanthemum already exists. Skipping.
+File /home/mathipe/.config/waybar/configs/[BOT] Default already exists. Skipping.
+File /home/mathipe/.config/waybar/configs/[BOT] Gardenia already exists. Skipping.
+File /home/mathipe/.config/waybar/configs/[BOT & Left] SouthWest already exists. Skipping.
+File /home/mathipe/.config/waybar/configs/[BOT] Peony already exists. Skipping.
+File /home/mathipe/.config/waybar/configs/[BOT & Right] SouthEast already exists. Skipping.
+File /home/mathipe/.config/waybar/configs/[BOT] Simple already exists. Skipping.
+File /home/mathipe/.config/waybar/configs/[BOT] Sleek already exists. Skipping.
+Copying /home/mathipe/.config/waybar-backup-back-up_0321_0812/configs/[Left] WestWing to /home/mathipe/.config/waybar/configs/
+File /home/mathipe/.config/waybar/configs/[LEFT] WestWing already exists. Skipping.
+File /home/mathipe/.config/waybar/configs/[LEFT] WestWing v2 already exists. Skipping.
+Copying /home/mathipe/.config/waybar-backup-back-up_0321_0812/configs/[Right] EastWing to /home/mathipe/.config/waybar/configs/
+File /home/mathipe/.config/waybar/configs/[RIGHT] EastWing already exists. Skipping.
+File /home/mathipe/.config/waybar/configs/[RIGHT] EastWing v2 already exists. Skipping.
+File /home/mathipe/.config/waybar/configs/[TOP] 0-Ja-0 already exists. Skipping.
+File /home/mathipe/.config/waybar/configs/[TOP] Arrow already exists. Skipping.
+File /home/mathipe/.config/waybar/configs/[TOP & BOT] SummitSplit already exists. Skipping.
+File /home/mathipe/.config/waybar/configs/[TOP & BOT] SummitSplit v2 already exists. Skipping.
+File /home/mathipe/.config/waybar/configs/[TOP] Camellia already exists. Skipping.
+File /home/mathipe/.config/waybar/configs/[TOP] Chrysanthemum already exists. Skipping.
+File /home/mathipe/.config/waybar/configs/[TOP] Default already exists. Skipping.
+File /home/mathipe/.config/waybar/configs/[TOP] Default (old v1) already exists. Skipping.
+File /home/mathipe/.config/waybar/configs/[TOP] Default (old v2) already exists. Skipping.
+File /home/mathipe/.config/waybar/configs/[TOP] Default (old v3) already exists. Skipping.
+File /home/mathipe/.config/waybar/configs/[TOP] Default (old v4) already exists. Skipping.
+Copying /home/mathipe/.config/waybar-backup-back-up_0321_0812/configs/[TOP] Default_v2 to /home/mathipe/.config/waybar/configs/
+Copying /home/mathipe/.config/waybar-backup-back-up_0321_0812/configs/[TOP] Default_v3 to /home/mathipe/.config/waybar/configs/
+Copying /home/mathipe/.config/waybar-backup-back-up_0321_0812/configs/[TOP] Default_v4 to /home/mathipe/.config/waybar/configs/
+File /home/mathipe/.config/waybar/configs/[TOP] Everforest already exists. Skipping.
+File /home/mathipe/.config/waybar/configs/[TOP] Gardenia already exists. Skipping.
+File /home/mathipe/.config/waybar/configs/[TOP & Left] NorthWest already exists. Skipping.
+File /home/mathipe/.config/waybar/configs/[TOP] Minimal - Long already exists. Skipping.
+File /home/mathipe/.config/waybar/configs/[TOP] Minimal - Short already exists. Skipping.
+File /home/mathipe/.config/waybar/configs/[TOP] Peony already exists. Skipping.
+File /home/mathipe/.config/waybar/configs/[TOP & Right] NorthEast already exists. Skipping.
+File /home/mathipe/.config/waybar/configs/[TOP] Simple already exists. Skipping.
+File /home/mathipe/.config/waybar/configs/[TOP] Simpliest already exists. Skipping.
+File /home/mathipe/.config/waybar/configs/[TOP] Sleek already exists. Skipping.
+File /home/mathipe/.config/waybar/style/[0 VERTICAL] [Catpuccin] Mocha.css already exists. Skipping.
+File /home/mathipe/.config/waybar/style/[0 VERTICAL] Golden Noir.css already exists. Skipping.
+File /home/mathipe/.config/waybar/style/[0 VERTICAL] Oglo Chicklets.css already exists. Skipping.
+File /home/mathipe/.config/waybar/style/[Black & White] Monochrome.css already exists. Skipping.
+File /home/mathipe/.config/waybar/style/[Catppuccin] Frappe.css already exists. Skipping.
+File /home/mathipe/.config/waybar/style/[Catppuccin] Latte.css already exists. Skipping.
+File /home/mathipe/.config/waybar/style/[Catppuccin] Mocha.css already exists. Skipping.
+Directory /home/mathipe/.config/waybar/style/catppuccin-themes already exists. Skipping.
+File /home/mathipe/.config/waybar/style/[Colored] Chroma Glow.css already exists. Skipping.
+File /home/mathipe/.config/waybar/style/[Colored] Translucent.css already exists. Skipping.
+File /home/mathipe/.config/waybar/style/[Colorful] Aurora Blossom.css already exists. Skipping.
+File /home/mathipe/.config/waybar/style/[Colorful] Aurora.css already exists. Skipping.
+File /home/mathipe/.config/waybar/style/[Colorful] Oglo Chicklets.css already exists. Skipping.
+File /home/mathipe/.config/waybar/style/[Colorful] Rainbow Spectrum.css already exists. Skipping.
+File /home/mathipe/.config/waybar/style/[Dark] Golden Eclipse.css already exists. Skipping.
+File /home/mathipe/.config/waybar/style/[Dark] Golden Noir.css already exists. Skipping.
+File /home/mathipe/.config/waybar/style/[Dark] Half-Moon.css already exists. Skipping.
+File /home/mathipe/.config/waybar/style/[Dark] Latte-Wallust combined.css already exists. Skipping.
+File /home/mathipe/.config/waybar/style/[Dark] Latte-Wallust combined v2.css already exists. Skipping.
+File /home/mathipe/.config/waybar/style/[Dark] Purpl.css already exists. Skipping.
+File /home/mathipe/.config/waybar/style/[Dark] Wallust Obsidian Edge.css already exists. Skipping.
+File /home/mathipe/.config/waybar/style/[Extra] Arrow.css already exists. Skipping.
+File /home/mathipe/.config/waybar/style/[Extra] Crimson.css already exists. Skipping.
+File /home/mathipe/.config/waybar/style/[Extra] EverForest.css already exists. Skipping.
+File /home/mathipe/.config/waybar/style/[Extra] Mauve.css already exists. Skipping.
+File /home/mathipe/.config/waybar/style/[Extra] Modern-Combined.css already exists. Skipping.
+File /home/mathipe/.config/waybar/style/[Extra] Modern-Combined - Transparent.css already exists. Skipping.
+File /home/mathipe/.config/waybar/style/[Extra] Neon Circuit.css already exists. Skipping.
+File /home/mathipe/.config/waybar/style/[Extra] Prismatic Glow.css already exists. Skipping.
+File /home/mathipe/.config/waybar/style/[Extra] Rose Pine.css already exists. Skipping.
+File /home/mathipe/.config/waybar/style/[Extra] Simple Pink.css already exists. Skipping.
+File /home/mathipe/.config/waybar/style/[Light] Monochrome Contrast.css already exists. Skipping.
+File /home/mathipe/.config/waybar/style/[Light] Obsidian Glow.css already exists. Skipping.
+File /home/mathipe/.config/waybar/style/[Rainbow] RGB Bordered.css already exists. Skipping.
+File /home/mathipe/.config/waybar/style/[Retro] Simple Style.css already exists. Skipping.
+File /home/mathipe/.config/waybar/style/[Transparent] Crystal Clear.css already exists. Skipping.
+File /home/mathipe/.config/waybar/style/[VERTICAL] [Catpuccin] Mocha.css already exists. Skipping.
+File /home/mathipe/.config/waybar/style/[Wallust Bordered] Chroma Fusion Edge.css already exists. Skipping.
+File /home/mathipe/.config/waybar/style/[Wallust Bordered] Chroma Simple.css already exists. Skipping.
+File /home/mathipe/.config/waybar/style/[Wallust] Box type.css already exists. Skipping.
+File /home/mathipe/.config/waybar/style/[Wallust] Chroma Edge.css already exists. Skipping.
+File /home/mathipe/.config/waybar/style/[Wallust] Chroma Fusion.css already exists. Skipping.
+File /home/mathipe/.config/waybar/style/[Wallust] Chroma Tally.css already exists. Skipping.
+File /home/mathipe/.config/waybar/style/[Wallust] Chroma Tally V2.css already exists. Skipping.
+File /home/mathipe/.config/waybar/style/[Wallust] Colored.css already exists. Skipping.
+File /home/mathipe/.config/waybar/style/[WALLUST] ML4W-modern.css already exists. Skipping.
+File /home/mathipe/.config/waybar/style/[WALLUST] ML4W-modern-mixed.css already exists. Skipping.
+File /home/mathipe/.config/waybar/style/[Wallust] Simple.css already exists. Skipping.
+File /home/mathipe/.config/waybar/style/[Wallust Transparent] Crystal Clear.css already exists. Skipping.
+[32m[OK](B[m - Restored directory: [35mMonitor_Profiles(B[m
+[32m[OK](B[m - Restored directory: [35manimations(B[m
+[32m[OK](B[m - Restored directory: [35mwallpaper_effects(B[m
+[32m[OK](B[m - Restored file: [35mmonitors.conf(B[m
+[32m[OK](B[m - Restored file: [35mworkspaces.conf(B[m
+[33m[NOTE](B[m - Skipped restoring 01-UserDefaults.conf.
+[33m[NOTE](B[m - Skipped restoring ENVariables.conf.
+[33m[NOTE](B[m - Skipped restoring LaptopDisplay.conf.
+[33m[NOTE](B[m - Skipped restoring Laptops.conf.
+[33m[NOTE](B[m - Skipped restoring Startup_Apps.conf.
+[33m[NOTE](B[m - Skipped restoring UserDecorations.conf.
+[33m[NOTE](B[m - Skipped restoring UserAnimations.conf.
+[33m[NOTE](B[m - Skipped restoring UserKeybinds.conf.
+[33m[NOTE](B[m - Skipped restoring UserSettings.conf.
+[33m[NOTE](B[m - Skipped restoring WindowRules.conf.
+[33m[NOTE](B[m - Skipped restoring RofiBeats.sh.
+[33m[NOTE](B[m - Skipped restoring Weather.py.
+[33m[NOTE](B[m - Skipped restoring Weather.sh.
+[33m[NOTE](B[m - Skipped restoring hyprlock.conf.
+[33m[NOTE](B[m - Skipped restoring hypridle.conf.
+[32m[OK](B[m Some [35mwallpapers(B[m copied successfully!
+[32m[OK](B[m nvim configuration downloaded successfully.
+[32m[OK](B[m nvim configuration copied successfully.
+[33m[NOTE](B[m You chose not to download additional wallpapers.
+[[1m[34mI[39m[0m] [1m[35mimage[39m[0m: .wallpaper_current
+[[1m[34mI[39m[0m] [1m[35mimage parser[39m[0m: Using [94m[1mKmeans[0m[39m backend parser
+[[1m[34mI[39m[0m] [1m[35mthreshold[39m[0m: Using a threshold of 11 in between colors.
+[[1m[34mI[39m[0m] [1m[35mcolorspace[39m[0m: Using [32m[1mLabMixed[0m[39m colorspace variation
+[[1m[34mI[39m[0m] [1m[35mscheme palette[39m[0m: Using [94m[1mDark16[0m[39m palette
+[[1m[34mI[39m[0m] [1m[35mcache[39m[0m: Using cache [3m/home/mathipe/.cache/wallust/1.5_5_1_01_11_0_0_0_1ciyojh.json[0m
+
+[48;2;57;58;58m    [49m[48;2;25;56;73m    [49m[48;2;63;67;66m    [49m[48;2;160;92;34m    [49m[48;2;109;110;109m    [49m[48;2;91;127;143m    [49m[48;2;154;154;153m    [49m[48;2;222;222;221m    [49m
+[48;2;155;155;155m    [49m[48;2;34;75;97m    [49m[48;2;84;89;88m    [49m[48;2;214;122;45m    [49m[48;2;145;147;146m    [49m[48;2;121;169;190m    [49m[48;2;205;205;204m    [49m[48;2;222;222;221m    [49m
+
+[[1m[34mI[39m[0m] [1m[35mtemplates[39m[0m: Writing templates..
+  * Templated [1mrofi[0m to '[3m~/.config/rofi/wallust/colors-rofi.rasi[0m'
+  * Templated [1mcava[0m to '[3m~/.config/cava/config[0m'
+  * Templated [1mhypr[0m to '[3m~/.config/hypr/wallust/wallust-hyprland.conf[0m'
+  * Templated [1mwaybar[0m to '[3m~/.config/waybar/wallust/colors-waybar.css[0m'
+  * Templated [1mkitty[0m to '[3m~/.config/kitty/kitty-colors.conf[0m'
+
+[5m[1m[38;2;222;222;221mE [39m[0m[0m[5m[1m[38;2;205;205;204mN [39m[0m[0m[5m[1m[38;2;121;169;190mJ [39m[0m[0m[5m[1m[38;2;145;147;146mO [39m[0m[0m[5m[1m[38;2;214;122;45mY [39m[0m[0m[9m  [0m[5m[1m[38;2;84;89;88mT [39m[0m[0m[5m[1m[38;2;34;75;97mH [39m[0m[0m[5m[1m[38;2;155;155;155mE [39m[0m[0m[9m  [0m[5m[1m[38;2;222;222;221mP [39m[0m[0m[5m[1m[38;2;154;154;153mA [39m[0m[0m[5m[1m[38;2;91;127;143mL [39m[0m[0m[5m[1m[38;2;109;110;109mE [39m[0m[0m[5m[1m[38;2;160;92;34mT [39m[0m[0m[5m[1m[38;2;63;67;66mT [39m[0m[0m[5m[1m[38;2;25;56;73mE [39m[0m[0m[5m[1m[38;2;238;238;237m! [39m[0m[0m
