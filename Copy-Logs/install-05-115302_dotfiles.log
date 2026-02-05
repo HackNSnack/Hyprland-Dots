@@ -1,0 +1,67 @@
+[34m[INFO](B[m Selected workflow: install
+[34m[INFO](B[m NixOS Distro Detected. Setting up proper env's and configs.
+[34m[INFO](B[m Bibata-Hyprcursor directory detected. Activating Hyprcursor....
+[33m[NOTE](B[m kb_layout [35mno(B[m configured in settings.
+[34m[INFO](B[m AGS detected - enabling in startup and refresh scripts
+[34m[INFO](B[m Quickshell detected - enabling in startup and refresh scripts
+[32m[OK](B[m Default editor set to [35mnvim(B[m.
+[32m[OK](B[m You have chosen < 1440p resolution.
+[33m[NOTE](B[m You chose not to change to 12H format.
+[33m[NOTE](B[m - Backed up fastfetch to /home/mathipe/.config/fastfetch-backup-back-up_0205_1153.
+[32m[OK](B[m - Replaced fastfetch with new configuration.
+[33m[NOTE](B[m - Backed up kitty to /home/mathipe/.config/kitty-backup-back-up_0205_1153.
+[32m[OK](B[m - Replaced kitty with new configuration.
+[33m[NOTE](B[m - Backed up rofi to /home/mathipe/.config/rofi-backup-back-up_0205_1153.
+[32m[OK](B[m - Replaced rofi with new configuration.
+[33m[NOTE](B[m - Backed up swaync to /home/mathipe/.config/swaync-backup-back-up_0205_1153.
+[32m[OK](B[m - Replaced swaync with new configuration.
+[33m[NOTE](B[m - Backed up waybar to /home/mathipe/.config/waybar-backup-back-up_0205_1153.
+[32m[OK](B[m - Copy of config for [33mbtop(B[m completed!
+[32m[OK](B[m - Copy of config for [33mcava(B[m completed!
+[32m[OK](B[m - Copy of config for [33mhypr(B[m completed!
+[32m[OK](B[m - Copy of config for [33mKvantum(B[m completed!
+[32m[OK](B[m - Copy of config for [33mqt5ct(B[m completed!
+[32m[OK](B[m - Copy of config for [33mqt6ct(B[m completed!
+[32m[OK](B[m - Copy of config for [33mswappy(B[m completed!
+[32m[OK](B[m - Copy of config for [33mwallust(B[m completed!
+[32m[OK](B[m - Copy of config for [33mwlogout(B[m completed!
+[33m[NOTE](B[m - Found old Quickshell startup command, updating to new overview config...
+[32m[OK](B[m - Updated Quickshell startup command to use overview config
+[32m[OK](B[m - Restored directory: [35mMonitor_Profiles(B[m
+[32m[OK](B[m - Restored directory: [35manimations(B[m
+[32m[OK](B[m - Restored directory: [35mwallpaper_effects(B[m
+[32m[OK](B[m - Restored file: [35mmonitors.conf(B[m
+[32m[OK](B[m - Restored file: [35mworkspaces.conf(B[m
+[33m[NOTE](B[m Restoring previous [35mUser-Configs(B[m... 
+[33m[NOTE](B[m Restoring UserConfigs directory...
+[32m[OK](B[m - UserConfigs directory restored.
+[34m[INFO](B[m Skipping UserConfigs duplicate cleanup for detected version v2.3.20 (>= 2.3.20).
+[33m[NOTE](B[m Restoring previous [35mUser-Scripts(B[m...
+[33m[NOTE](B[m - Skipped restoring RofiBeats.sh.
+[33m[NOTE](B[m - Skipped restoring Weather.py.
+[33m[NOTE](B[m - Skipped restoring Weather.sh.
+[33m[NOTE](B[m Restoring some files in [35m/home/mathipe/.config/hypr directory(B[m...
+[31m[ERROR](B[m - Backup file /home/mathipe/.config/hypr-backup-back-up_0205_1153/hyprlock.conf does not exist.
+[33m[NOTE](B[m - Skipped restoring hypridle.conf.
+[32m[OK](B[m Some [35mwallpapers(B[m copied successfully!
+[33m[NOTE](B[m You chose not to download additional wallpapers.
+[[1m[34mI[39m[0m] [1m[35mimage[39m[0m: .wallpaper_current
+[[1m[34mI[39m[0m] [1m[35mimage parser[39m[0m: Using [94m[1mKmeans[0m[39m backend parser
+[[1m[34mI[39m[0m] [1m[35mthreshold[39m[0m: Using a threshold of 11 in between colors.
+[[1m[34mI[39m[0m] [1m[35mcolorspace[39m[0m: Using [32m[1mLabMixed[0m[39m colorspace variation
+[[1m[34mI[39m[0m] [1m[35mscheme palette[39m[0m: Using [94m[1mDark16[0m[39m palette
+
+[48;2;70;72;76m    [49m[48;2;16;25;39m    [49m[48;2;63;66;96m    [49m[48;2;63;66;96m    [49m[48;2;134;91;114m    [49m[48;2;134;91;114m    [49m[48;2;122;128;163m    [49m[48;2;200;204;228m    [49m
+[48;2;140;143;159m    [49m[48;2;21;34;52m    [49m[48;2;84;88;128m    [49m[48;2;84;88;128m    [49m[48;2;179;121;152m    [49m[48;2;179;121;152m    [49m[48;2;163;170;217m    [49m[48;2;200;204;228m    [49m
+
+[[1m[34mI[39m[0m] [1m[35mtemplates[39m[0m: Writing templates..
+  * Templated [1mrofi[0m to '[3m/home/mathipe/.config/rofi/wallust/colors-rofi.rasi[0m'
+  * Templated [1mwaybar[0m to '[3m/home/mathipe/.config/waybar/wallust/colors-waybar.css[0m'
+  * Templated [1mhypr[0m to '[3m/home/mathipe/.config/hypr/wallust/wallust-hyprland.conf[0m'
+  * Templated [1mcava[0m to '[3m/home/mathipe/.config/cava/config[0m'
+  * Templated [1mghostty[0m to '[3m/home/mathipe/.config/ghostty/wallust.conf[0m'
+  * Templated [1mkitty[0m to '[3m/home/mathipe/.config/kitty/kitty-themes/01-Wallust.conf[0m'
+  * Templated [1mquickshell[0m to '[3m/home/mathipe/.config/quickshell/qml_color.json[0m'
+[[1m[34mI[39m[0m] [1m[35mcache[39m[0m: Saving scheme to cache.
+
+[5m[1m[38;2;200;204;228mE [39m[0m[0m[5m[1m[38;2;163;170;217mN [39m[0m[0m[5m[1m[38;2;179;121;152mJ [39m[0m[0m[5m[1m[38;2;179;121;152mO [39m[0m[0m[5m[1m[38;2;84;88;128mY [39m[0m[0m[9m  [0m[5m[1m[38;2;84;88;128mT [39m[0m[0m[5m[1m[38;2;21;34;52mH [39m[0m[0m[5m[1m[38;2;140;143;159mE [39m[0m[0m[9m  [0m[5m[1m[38;2;200;204;228mP [39m[0m[0m[5m[1m[38;2;122;128;163mA [39m[0m[0m[5m[1m[38;2;134;91;114mL [39m[0m[0m[5m[1m[38;2;134;91;114mE [39m[0m[0m[5m[1m[38;2;63;66;96mT [39m[0m[0m[5m[1m[38;2;63;66;96mT [39m[0m[0m[5m[1m[38;2;16;25;39mE [39m[0m[0m[5m[1m[38;2;223;225;242m! [39m[0m[0m
