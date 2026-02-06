@@ -32,8 +32,8 @@
 clear
 wallpaper=$HOME/.config/hypr/wallpaper_effects/.wallpaper_current
 waybar_style="$HOME/.config/waybar/style/[Extra] Neon Circuit.css"
-waybar_config="$HOME/.config/waybar/configs/[TOP] Default"
-waybar_config_laptop="$HOME/.config/waybar/configs/[TOP] Default Laptop"
+waybar_config="$HOME/.config/waybar/configs/[TOP] Camellia-Based Custom"
+waybar_config_laptop="$HOME/.config/waybar/configs/[TOP] Camellia-Based Custom"
 
 # Set some colors for output messages
 OK="$(tput setaf 2)[OK]$(tput sgr0)"
