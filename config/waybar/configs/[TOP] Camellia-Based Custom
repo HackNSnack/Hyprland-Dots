@@ -1,0 +1,100 @@
+//* ----------- 💫 https://github.com/JaKooLit 💫 -------- */
+//* ............................................*/
+//* .............CAMELLIA.......................*/
+//* ............................................*/
+//* --- 👍 designed by https://github.com/Krautt  👍 --- */
+
+[
+{
+  "include": [
+    "$HOME/.config/waybar/Modules",
+    //"$HOME/.config/waybar/ModulesVertical",
+    "$HOME/.config/waybar/ModulesWorkspaces",
+    "$HOME/.config/waybar/ModulesCustom",
+    "$HOME/.config/waybar/ModulesGroups",
+    "$HOME/.config/waybar/UserModules"
+  ],
+  "layer": "top",
+  //"mode": "dock",
+  "exclusive": true,
+  "passthrough": false,
+  "position": "left",
+  "spacing": 4,
+  //"fixed-center": true,
+  "ipc": true,
+  "margin-top": 8,
+  "margin-bottom": 8,
+  "margin-left": 3,
+  "margin-right": 3,
+
+  "modules-left": [
+    //"custom/separator#line",
+    "mpris",
+    "group/notify",
+    "tray",
+    "wlr/taskbar"
+  ],
+
+  "modules-center": ["hyprland/workspaces#pacman"],
+
+  "modules-right": [
+    "battery",
+    "custom/separator#dot-line-vert",
+    "group/status",
+  ]
+},
+
+{
+  "include": ["$HOME/.config/waybar/Modules"],
+  "layer": "top",
+  //"mode": "dock",
+  "exclusive": true,
+  "passthrough": false,
+  "position": "bottom",
+  "passthrough": false,
+  "spacing": 5,
+  "fixed-center": true,
+  "ipc": true,
+  //"height": 0,
+  "margin-left": 8,
+  "margin-right": 8,
+  "margin-top": 5,
+  "margin-bottom": 2,
+  //"gtk-layer-shell": true,
+
+  "modules-center": ["clock"],
+  "modules-right": [
+    "custom/backlight",
+    "backlight/slider",
+    "custom/speaker",
+    "pulseaudio/slider",
+    "power-profiles-daemon",
+    "network"
+  ],
+  // Additional modules //
+  "pulseaudio/slider": {
+    "min": 0,
+    "max": 100,
+    "orientation": "horizontal"
+  },
+
+  "custom/speaker": {
+    "exec": "echo '🔊'",
+    "interval": 1,
+    "format": "{}"
+  },
+
+  "backlight/slider": {
+    "min": 0,
+    "max": 100,
+    "orientation": "horizontal",
+    "device": "intel_backlight"
+  },
+
+  "custom/backlight": {
+    "exec": "echo '✨'",
+    "interval": 1,
+    "format": "{}"
+  }
+}
+]
