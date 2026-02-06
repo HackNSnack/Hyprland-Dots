@@ -222,7 +222,8 @@ run_lock() {
         # mpvpaper with overlay layer - this is the key to making it work!
         # "ALL" targets all connected monitors
         # --layer overlay = places video above desktop but below lock screen
-        mpvpaper -o "no-audio loop" --layer overlay ALL "$MATRIX_VIDEO" &
+        # keepaspect=no stretches video to fill the entire screen
+        mpvpaper -o "no-audio loop keepaspect=no" --layer overlay ALL "$MATRIX_VIDEO" &
         PLAYER_PID=$!
         PLAYER_CMD="mpvpaper"
     else
