@@ -20,8 +20,8 @@ case $LAYOUT in
   hyprctl keyword general:layout dwindle
   hyprctl keyword unbind SUPER,J
   hyprctl keyword unbind SUPER,K
-  hyprctl keyword bind SUPER,J,cyclenext
-  hyprctl keyword bind SUPER,K,cyclenext,prev
+  hyprctl keyword bind SUPER,J,movefocus,d
+  hyprctl keyword bind SUPER,K,movefocus,u
   hyprctl keyword bind SUPER,O,togglesplit
   notify-send -e -u low -i "$notif" " Dwindle Layout"
   ;;
@@ -30,8 +30,8 @@ case $LAYOUT in
   hyprctl keyword unbind SUPER,J
   hyprctl keyword unbind SUPER,K
   hyprctl keyword unbind SUPER,O
-  hyprctl keyword bind SUPER,J,layoutmsg,cyclenext
-  hyprctl keyword bind SUPER,K,layoutmsg,cycleprev
+  hyprctl keyword bind SUPER,J,movefocus,d
+  hyprctl keyword bind SUPER,K,movefocus,u
   notify-send -e -u low -i "$notif" " Master Layout"
   ;;
 *) ;;
