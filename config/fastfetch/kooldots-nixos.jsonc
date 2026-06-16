@@ -5,8 +5,8 @@
     "type": "kitty-direct",
     "source": "$HOME/.config/fastfetch/images/nixos.png",
     // "type": "small",
-    "width": 20,
-    "height": 10,
+    "width": 30,
+    "height": 15,
     "padding": {
       "top": 4,
       "right": 4,
@@ -36,7 +36,7 @@
     // },
     // "break",
 
-    "break",
+    // "break",
     // ── System ─────────────────────────────────────────────────────
     {
       "type": "custom",
