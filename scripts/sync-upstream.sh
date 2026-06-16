@@ -22,14 +22,27 @@ for arg in "$@"; do
   esac
 done
 
-echo "$NOTE Fetching upstream changes..."
-git fetch upstream
+UPSTREAM_REMOTE="linux-beginnings"
+UPSTREAM_BRANCH="main"
+
+# Check if the remote exists, if not try 'upstream' as fallback
+if ! git remote get-url "$UPSTREAM_REMOTE" &>/dev/null; then
+  if git remote get-url "upstream" &>/dev/null; then
+    UPSTREAM_REMOTE="upstream"
+  else
+    echo "$NOTE No upstream remote found. Adding linux-beginnings..."
+    git remote add linux-beginnings https://github.com/LinuxBeginnings/Hyprland-Dots.git
+  fi
+fi
+
+echo "$NOTE Fetching $UPSTREAM_REMOTE changes..."
+git fetch "$UPSTREAM_REMOTE"
 
 # Show what's new
-UPSTREAM_COMMITS=$(git rev-list HEAD..upstream/main --count)
+UPSTREAM_COMMITS=$(git rev-list HEAD.."$UPSTREAM_REMOTE/$UPSTREAM_BRANCH" --count 2>/dev/null || echo "unknown")
 echo "$NOTE Upstream has $UPSTREAM_COMMITS new commits"
 
-if [ "$UPSTREAM_COMMITS" -eq 0 ]; then
+if [ "$UPSTREAM_COMMITS" -eq 0 ] 2>/dev/null; then
   echo "$OK Already up to date!"
   exit 0
 fi
@@ -37,18 +50,18 @@ fi
 # Show summary of changes
 echo ""
 echo "$NOTE Upstream changes summary:"
-git log HEAD..upstream/main --oneline | head -20
+git log HEAD.."$UPSTREAM_REMOTE/$UPSTREAM_BRANCH" --oneline | head -20
 echo ""
 
 # Show files that will be affected
 echo "$NOTE Files changed in upstream:"
-git diff --stat HEAD..upstream/main | tail -20
+git diff --stat HEAD.."$UPSTREAM_REMOTE/$UPSTREAM_BRANCH" | tail -20
 echo ""
 
 if $DRY_RUN; then
   echo "$NOTE Dry run - checking for potential conflicts..."
 
-  if git merge --no-commit --no-ff upstream/main 2>/dev/null; then
+  if git merge --no-commit --no-ff "$UPSTREAM_REMOTE/$UPSTREAM_BRANCH" 2>/dev/null; then
     echo "$OK No conflicts expected - merge would succeed"
     git merge --abort 2>/dev/null || true
   else
@@ -60,7 +73,7 @@ if $DRY_RUN; then
 fi
 
 echo "$NOTE Attempting merge..."
-if git merge upstream/main -m "Merge upstream changes"; then
+if git merge "$UPSTREAM_REMOTE/$UPSTREAM_BRANCH" -m "Merge upstream changes"; then
   echo "$OK Merge successful!"
   echo ""
   echo "$NOTE Next steps:"
@@ -83,12 +96,14 @@ else
 $CONFLICT_FILES
 
 ## My Customizations (DO NOT LOSE):
-- UserConfigs/01-UserDefaults.conf: Qwant search, nvim, kitty
-- UserConfigs/UserSettings.conf: Norwegian keyboard (kb_layout = no), Bibata cursor
-- UserConfigs/UserKeybinds.conf: Super+Shift+V for Vivaldi
+- UserConfigs/01-UserDefaults.conf: Qwant search, nvim, kitty, thunar
+- UserConfigs/UserSettings.conf: Norwegian keyboard (kb_layout = no), Bibata cursor, VRR, session_lock_xray
+- UserConfigs/UserKeybinds.conf: Vim-style hjkl nav, Vivaldi, Matrix lock screen
 - UserConfigs/Startup_Apps.conf: ProtonVPN, RainbowBorders
-- kitty.conf: Font size 14
+- kitty.conf: Font size 14, no Wallust theme, explicit colors
 - 0-shared-fonts.rasi: Smaller fonts
+- UserScripts/MatrixLockVideo.sh, hyprlock-matrix.conf: Custom lock screen
+- ENVariables.conf: Bibata cursor enabled
 
 ## Guidelines:
 - UserConfigs/ ALWAYS takes priority
