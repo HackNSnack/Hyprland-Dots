@@ -1,6 +1,9 @@
-WARP.md 
-.warp.md 
+WARP.md
+.warp.md
 result
+
+# pi agent metadata
+.pi/
 
 # Python artifacts
 __pycache__/
