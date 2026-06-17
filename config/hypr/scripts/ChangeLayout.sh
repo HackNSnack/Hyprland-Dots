@@ -57,10 +57,6 @@ set_layout() {
     return 1
   fi
 
-  hypr_keyword unbind SUPER,j
-  hypr_keyword unbind SUPER,k
-  hypr_keyword bind SUPER,j,cyclenext
-  hypr_keyword bind SUPER,k,cyclenext,prev
   hypr_keyword unbind SUPER,left
   hypr_keyword unbind SUPER,right
   hypr_keyword unbind SUPER,up
@@ -129,10 +125,10 @@ case "$arg" in
 init)
   set_layout "$current"
   ;;
-toggle|next)
+toggle | next)
   set_layout "$(next_layout "$current")"
   ;;
-master|dwindle|scrolling|monocle)
+master | dwindle | scrolling | monocle)
   set_layout "$arg"
   ;;
 *)
